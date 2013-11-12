@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 600px;
+    width: 600px;
+    margin-top: -300px;
+    margin-left: -300px;
+}
+td {
+    border: 1px dashed #eee;
+    padding: 0;
+    margin: 0;
+}
+.land {
+    background-color: green;
+}
+.water {
+    background-color: lightblue;
+}
+.player {
+    background-color: grey;
+}
+#controls {
+    left: 0px;
+    list-style-type: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0px;
+}
+#zoom {
+    right: 0px;
+    list-style-type: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0px;
+}
+li {
+    display: inline;
+}
+@media (min-width: 100px) and (min-height: 100px) {
+    table {
+        height: 100px;
+        width: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+    }
+}
+@media (min-width: 200px) and (min-height: 200px) {
+    table {
+        height: 200px;
+        width: 200px;
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+}
+@media (min-width: 300px) and (min-height: 300px) {
+    table {
+        height: 300px;
+        width: 300px;
+        margin-top: -150px;
+        margin-left: -150px;
+    }
+}
+@media (min-width: 400px) and (min-height: 400px) {
+    table {
+        height: 400px;
+        width: 400px;
+        margin-top: -200px;
+        margin-left: -200px;
+    }
+}
+@media (min-width: 500px) and (min-height: 500px) {
+    table {
+        height: 500px;
+        width: 500px;
+        margin-top: -250px;
+        margin-left: -250px;
+    }
+}
+@media (min-width: 600px) and (min-height: 600px) {
+    table {
+        height: 600px;
+        width: 600px;
+        margin-top: -300px;
+        margin-left: -300px;
+    }
+}
+@media (min-width: 700px) and (min-height: 700px) {
+    table {
+        height: 700px;
+        width: 700px;
+        margin-top: -350px;
+        margin-left: -350px;
+    }
+}
+@media (min-width: 800px) and (min-height: 800px) {
+    table {
+        height: 800px;
+        width: 800px;
+        margin-top: -400px;
+        margin-left: -400px;
+    }
+}
+
+@media (min-width: 900px) and (min-height: 900px) {
+    table {
+        height: 900px;
+        width: 900px;
+        margin-top: -450px;
+        margin-left: -450px;
+    }
+}
