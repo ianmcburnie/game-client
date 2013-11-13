@@ -8,8 +8,24 @@ define(function () {
         }
     }
 
+    function createTableHead(numCols) {
+        var $thead = $('<thead>'),
+            $tr = $('<tr>');
+
+        for (var colIdx = 0; colIdx < numCols; colIdx++) {
+            $tr.append($('<th>'+colIdx+'</th>'));
+        }
+
+        $thead.append($tr);
+
+        return $thead;
+    }
+
     Board.prototype.render = function() {
         this.$el = $('<table>');
+
+        this.$el.append(createTableHead(this.model.size));
+
         for (var rowIdx = 0; rowIdx < this.model.size; rowIdx++) {
             var $tr = $('<tr>');
             this.$el.append($tr);
