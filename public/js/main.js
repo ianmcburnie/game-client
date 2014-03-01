@@ -1,6 +1,6 @@
 require(['modules/Socket', 'modules/Board'], function(Socket, Board) {
 
-    var socket = new Socket('ws://zokathra-io.herokuapp.com:8080'),
+    var socket = new Socket('ws://zokathra-io.herokuapp.com'),
         playerId,
         board;
 
